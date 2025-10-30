@@ -1,2 +1,2 @@
-# Study-C-C-
+# Study-C
 Let the start begin
