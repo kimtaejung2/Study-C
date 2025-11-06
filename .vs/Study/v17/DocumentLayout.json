@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A0A766C4-D4E0-40A6-B29F-5B4199E8252F}|Study.vcxproj|C:\\Users\\kimtaejeong\\source\\repos\\Study\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A0A766C4-D4E0-40A6-B29F-5B4199E8252F}|Study.vcxproj|solutionrelative:Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A766C4-D4E0-40A6-B29F-5B4199E8252F}|Study.vcxproj|C:\\Users\\kimtaejeong\\source\\repos\\Study\\Logic.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A0A766C4-D4E0-40A6-B29F-5B4199E8252F}|Study.vcxproj|solutionrelative:Logic.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logic.txt",
+              "DocumentMoniker": "C:\\Users\\kimtaejeong\\source\\repos\\Study\\Logic.txt",
+              "RelativeDocumentMoniker": "Logic.txt",
+              "ToolTip": "C:\\Users\\kimtaejeong\\source\\repos\\Study\\Logic.txt",
+              "RelativeToolTip": "Logic.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-06T05:50:33.986Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Test.c",
               "ToolTip": "C:\\Users\\kimtaejeong\\source\\repos\\Study\\Test.c",
               "RelativeToolTip": "Test.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-30T16:15:12.432Z",
               "EditorCaption": ""
