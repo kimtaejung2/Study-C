@@ -1,16 +1,31 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+char *name = "Wolfeschlegelsteinhausenbergerdorff­welche­vor­altern­waren­gewissenhaft­schafers­wessen­schafe­waren­wohl­gepflege­und­sorgfaltigkeit­beschutzen­vor­angreifen­durch­ihr­raubgierig­feinde­welche­vor­altern­zwolfhundert­tausend­jahres­voran­die­erscheinen­von";
 
-int main() {
-	for (int i = 2; i <= 9; i++) {
-		for (int j = 1; j <= 9; j++) {
-			printf("%d X %d = %d \n", i, j, i*j);
-		}
-	}
-	return 0;
+typedef struct {
+	char *name;
+} customer_data_t;
+
+void login() {
+	printf("Login successful.\n");
 }
 
+int main() {
+	//함수 포인터, 상태에 따라 함수 호출을 다르게 하고 싶을 때 사용
+	void (*func)() = login;
+	func();
 
+	customer_data_t user;
+
+	//동적 할당, 메모리의 크기를 실행중에 결정
+	user.name = malloc(strlen(name) + 1);
+	strcpy(user.name, name);
+	printf("Customer Name: %s\n", user.name);
+
+	free(user.name);
+	return 0;
+}
 
 /*
 * char: signed, unsigned: 1byte
